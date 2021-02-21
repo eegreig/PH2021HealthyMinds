@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PearlHacks</title>
+</head>
+
+<body>
+    <section class="hero is-dark is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Healthy Minds
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="content">
+            <h2 class="subtitle" style="color: #accaa6;"> Mood Tracker Calendar </h2>
+            <p>This calendar is designed to help with mood tracking. By clicking individuals dates on this calendar to change the color of the dates, one can observe highs and lows in their mood. The bottom of this page contains resources should an individual be concerned or looking to learn more about their patterns.</p>
+            <p></p>
+            <div class="month">
+                <ul style="list-style: none;">
+                    <li>February<br><span style="font-size:18px">2021</span></li>
+                </ul>
+            </div>
+            <ul class="weekdays">
+                <li>Mo</li>
+                <li>Tu</li>
+                <li>We</li>
+                <li>Th</li>
+                <li>Fr</li>
+                <li>Sa</li>
+                <li>Su</li>
+            </ul>
+            <ul class="days" id="buttons is-center">
+                <li><button class="button" id="1">01</button></li>
+                <li><button class="button" id="2">02</button></li>
+                <li><button class="button" id="3">03</button></li>
+                <li><button class="button" id="4">04</button></li>
+                <li><button class="button" id="5">05</button></li>
+                <li><button class="button" id="6">06</button></li>
+                <li><button class="button" id="7">07</button></li>
+                <li><button class="button" id="8">08</button></li>
+                <li><button class="button" id="9">09</button></li>
+                <li><button class="button" id="10">10</button></li>
+                <li><button class="button" id="11">11</button></li>
+                <li><button class="button" id="12">12</button></li>
+                <li><button class="button" id="13">13</button></li>
+                <li><button class="button" id="14">14</button></li>
+                <li><button class="button" id="15">15</button></li>
+                <li><button class="button" id="16">16</button></li>
+                <li><button class="button" id="17">17</button></li>
+                <li><button class="button" id="18">18</button></li>
+                <li><button class="button" id="19">19</button></li>
+                <li><button class="button" id="20">20</button></li>
+                <li><button class="button" id="21">21</button></li>
+                <li><button class="button" id="22">22</button></li>
+                <li><button class="button" id="23">23</button></li>
+                <li><button class="button" id="24">24</button></li>
+                <li><button class="button" id="25">25</button></li>
+                <li><button class="button" id="26">26</button></li>
+                <li><button class="button" id="27">27</button></li>
+                <li><button class="button" id="28">28</button></li>
+            </ul>
+        <h2 class="subtitle" style="color: #accaa6;"> Legend</h2>
+        <ul>
+            <li><span style="background-color: rgb(230, 176, 170); display: inline-block; width: 320px; padding: 25px 10px">Red: Angry, Stressed, Frustrated</span></li>
+            <li><span style="background-color: rgb(174, 214, 241); display: inline-block; width: 320px; padding: 25px 10px">Blue: Sad, Confused, Hurt</span></li>
+            <li><span style="background-color: rgb(215, 189, 226); display: inline-block; width: 320px; padding: 25px 10px">Purple: Anxious, Fearful, Surprised</span></li>
+            <li><span style="background-color: rgb(204, 209, 209); display: inline-block; width: 320px; padding: 25px 10px">Grey: Calm, Bored, Content</span></li>
+            <li><span style="background-color: rgb(250, 250, 165); display: inline-block; width: 320px; padding: 25px 10px">Yellow: Happy, Confident, Optimistic</span></li>
+         
+        
+         
+            
+        </ul>
+        <h2 class="subtitle" style="color: #accaa6;">Mental Health Resources</h2>
+        <h4 style="color: #666;">Angry, Stressed, Frustrated</h4>
+        <ul>
+            <li><a href="https://www.crisistextline.org/text-us/">US Crisis Text Line</a>: Text “HELLO” to 741741</li>
+            <li><span><a href="https://www.glbthotline.org/resources.html">LGBT US National Hotline</a></span></li>
+            <li><span><a href="https://www.ioaging.org/services/all-inclusive-health-care/friendship-line">Crisis Line for Individuals 60+ </a></span></li>
+            <li><span>Spotify: <a href="https://open.spotify.com/playlist/7LI3zw8HLkjKo5YpvA26KG?si=lI-rNRqoTs-YVSZSURp0uA&nd=1">Calming Music Playlist</a></span></li>
+            <li><span><a href="https://www.apa.org/topics/anger/strategies-controlling">Strategies to Control Your Anger</a></span></li>
+            <li><span><a href="https://www.thehotline.org/resources/how-to-cool-off-when-youre-angry/">How to Cool Off When Angry</a></span></li>
+        </ul>
+        <h4 style="color: #666;">Sad, Confused, Hurt</h4>
+        <ul>
+            <li><span><a href="https://suicidepreventionlifeline.org/talk-to-someone-now/">US National Suicide Hotline: 1-800-273-8255 </a></span></li>
+            <li><span><a href="https://suicidepreventionlifeline.org/help-yourself/for-deaf-hard-of-hearing/">Suicide Prevention Line for Individuals Hard of Hearing</a></span></li>
+            <li><span><a href="http://www.suicide.org/international-suicide-hotlines.html">International Suicide Hotlines</a></span></li>
+            <li><span><a href="https://www.crisistextline.org/text-us/">US Crisis Text Line</a>: Text “HELLO” to 741741 </span></li>
+            <li><span><a href="https://www.glbthotline.org/resources.html">LGBT US National Hotline</a></span></li>
+            <li><span><a href="https://www.ioaging.org/services/all-inclusive-health-care/friendship-line">Crisis Line for Individuals 60+ </a></span></li>
+            <li><span><a href="https://www.7cups.com/">Free Emotional Support</a></span></li>
+            <li><span>Psychology Today: <a href="https://www.psychologytoday.com/us/therapists?utm_source=PT_Psych_Today">Finding a Therapist</a></span></li>
+            <li><span><a href="https://psychcentral.com/depression/depression-treatment">Long Term Treatments for Depression</a></span></li>
+        </ul>
+        <h4 style="color: #666;">Anxious, Fearful, Surprised</h4>
+        <ul>
+            <li><span><a href="https://suicidepreventionlifeline.org/talk-to-someone-now/">US National Suicide Hotline: 1-800-273-8255 </a></span></li>
+            <li><span><a href="https://suicidepreventionlifeline.org/help-yourself/for-deaf-hard-of-hearing/">Suicide Prevention Line for Individuals Hard of Hearing</a></span></li>
+            <li><span><a href="http://www.suicide.org/international-suicide-hotlines.html">International Suicide Hotlines</a></span></li>
+            <li><span><a href="https://www.crisistextline.org/text-us/">US Crisis Text Line</a>: Text “HELLO” to 741741</li></span></li>
+            <li><span><a href="https://www.glbthotline.org/resources.html">LGBT US National Hotline</a></span></li>
+            <li><span><a href="https://www.ioaging.org/services/all-inclusive-health-care/friendship-line">Crisis Line for Individuals 60+ </a></span></li>
+            <li><span>Spotify: <a href="https://open.spotify.com/playlist/7LI3zw8HLkjKo5YpvA26KG?si=lI-rNRqoTs-YVSZSURp0uA&nd=1">Calming Music Playlist</a></span></li>
+            <li><span>Psychology Today: <a href="https://www.psychologytoday.com/us/therapists?utm_source=PT_Psych_Today">Finding a Therapist</a></span></li>
+            <li><span><a href="https://www.psychologytoday.com/us/blog/the-well-being-toolkit/201910/sos-difficult-emotions">Informal Meditation Practice</a></span></li>
+        </ul>
+        <h4 style="color: #666;">Calm, Bored, Content</h4>
+        <ul>
+            <li><span>Spotify: <a href="https://open.spotify.com/playlist/37i9dQZF1DX5Ufz5ldo0J4?si=x7nLuGURTT6OWavm00HZlg&nd=1">Keep Calm Playlist</a></span></li>
+            <li><span>Spotify: <a href="https://open.spotify.com/playlist/5Rw5J4Cb7MpIsiGG1oWi85?si=AxxbTumpTq27FysN6EOiLQ&nd=1">Lofi Playlist</a></span></li>
+        </ul>
+        <h4 style="color: #666;">Happy, Confident, Optimistic</h4>
+        <ul>
+            <li><span>Blog Post: <a href="https://www.psychologytoday.com/us/blog/happiness-is-state-mind/202005/choosing-happiness">Choosing Happiness</a></span></li>
+            <li><span>Blog Post: <a href="https://www.psychologytoday.com/us/blog/click-here-happiness/202102/9-gratitude-practices-try-today">Gratitude Practices</a></span></li>
+            <li><span>Blog Post: <a href="https://www.psychologytoday.com/us/blog/click-here-happiness/202102/how-feel-better-7-science-based-tips-boost-your-mood">Science Tips to Boost Your Mood</a></span></li>
+            <li><span>Spotify: <a href="https://open.spotify.com/playlist/4Sqm46mbSLrVK3u3E071MW?si=72GK1GQpTz2xrOBnE4beEg&nd=1">Happy Vibes Only Playlist</a></span></li>
+            <li><span>Spotify: <a href="https://open.spotify.com/playlist/1h90L3LP8kAJ7KGjCV2Xfd?si=wAfdC3QgSum8IR68TBIb8Q&nd=1">Happy Songs Playlist</a></span></li>
+        </ul>
+
+        </div>
+    </section>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
